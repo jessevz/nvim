@@ -20,4 +20,5 @@ vim.g.mapleader = " "
 
 vim.cmd("set clipboard=unnamedplus")
 vim.cmd("set autochdir")
+vim.cmd([[autocmd FileType python setlocal keywordprg=python3\ -m\ pydoc]])
 
